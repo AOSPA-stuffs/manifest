@@ -104,8 +104,9 @@
   <remove-project name="platform/hardware/st/nfc" />
   <project path="hardware/st/nfc" name="AOSPA/android_hardware_st_nfc" remote="aospa" />
 
-  <!-- Hardware (Lineage) -->
+  <!-- Hardware -->
   <project path="hardware/lineage/compat" name="AOSPA/android_hardware_lineage_compat" remote="aospa" />
+  <project path="hardware/motorola" name="android_hardware_motorola" remote="stuffs" />
 
   <!-- Kernel -->
   <remove-project name="kernel/configs" />
