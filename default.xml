@@ -50,7 +50,6 @@
   <include name="aosp.xml"/>
   <include name="aospa.xml"/>
   <include name="obsolete.xml"/>
-  <include name="modules.xml"/>
   <include name="rd-removes.xml"/>
   <include name="rd.xml"/>
 
