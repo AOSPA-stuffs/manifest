@@ -98,7 +98,7 @@
   <remove-project name="platform/frameworks/native" />
   <project path="frameworks/native" name="android_frameworks_native" remote="forks" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
-  <project path="frameworks/opt/net/wifi" name="AOSPA/android_frameworks_opt_net_wifi" remote="aospa" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="stuffs" revision="topaz" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <project path="frameworks/opt/telephony" name="AOSPA/android_frameworks_opt_telephony" remote="aospa" />
   <remove-project name="platform/frameworks/proto_logging" />
@@ -116,15 +116,16 @@
   <remove-project name="platform/hardware/st/nfc" />
   <project path="hardware/st/nfc" name="AOSPA/android_hardware_st_nfc" remote="aospa" />
 
-  <!-- Hardware (Lineage) -->
+  <!-- Hardware -->
   <project path="hardware/lineage/compat" name="AOSPA/android_hardware_lineage_compat" remote="aospa" />
+  <project path="hardware/motorola" name="android_hardware_motorola" remote="stuffs" revision="topaz" />
 
   <!-- Kernel -->
   <remove-project name="kernel/configs" />
-  <project path="kernel/configs" name="AOSPA/android_kernel_configs" remote="aospa" />
+  <project path="kernel/configs" name="android_kernel_configs" remote="stuffs" revision="topaz" />
 
   <!-- Manifest -->
-  <project path="manifest" name="manifest" remote="forks" />
+  <project path="manifest" name="manifest" remote="stuffs" />
 
   <!-- Packages -->
   <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="forks" />
@@ -201,7 +202,7 @@
   <project path="tools/extract-utils" name="AOSPA/android_tools_extract-utils" remote="aospa" />
 
   <!-- Vendor (AOSPA) -->
-  <project path="vendor/aospa" name="android_vendor_aospa" remote="forks" >
+  <project path="vendor/aospa" name="android_vendor_aospa" remote="stuffs" >
     <linkfile src="build.sh" dest="rom-build.sh" />
   </project>
   <project path="vendor/aospa/apps/ParanoidThemePicker" name="vendor_aospa_apps_ParanoidThemePicker" remote="forks" />
