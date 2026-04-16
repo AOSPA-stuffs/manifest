@@ -61,13 +61,13 @@
 
   <!-- Manifest -->
   <remove-project name="AOSPA/manifest" />
-  <project path="manifest" name="manifest" remote="pnm" />
+  <project path="manifest" name="manifest" remote="stuffs" />
 
   <!-- Packages -->
   <remove-project name="AOSPA/android_packages_apps_Launcher3" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="pnm" />
   <remove-project name="AOSPA/android_packages_apps_Settings" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pnm" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="stuffs" />
   <remove-project name="AOSPA/android_packages_apps_ParanoidSettings" />
   <project path="packages/apps/ParanoidSettings" name="android_packages_apps_ParanoidSettings" remote="pnm" />
   <remove-project name="AOSPA/android_packages_apps_Paranoid_SystemUI" />
@@ -85,7 +85,7 @@
 
   <!-- Vendor (peternmuller) -->
   <remove-project name="AOSPA/android_vendor_aospa" />
-  <project path="vendor/aospa" name="android_vendor_aospa" remote="pnm" >
+  <project path="vendor/aospa" name="android_vendor_aospa" remote="stuffs" >
     <linkfile src="build.sh" dest="rom-build.sh" />
   </project>
   <remove-project name="android_vendor_aospa_prebuilt" />
