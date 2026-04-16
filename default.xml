@@ -60,6 +60,10 @@
            fetch="https://github.com/AOSPA-stuffs"
            revision="vauxite" />
 
+  <remote  name="rd"
+           fetch="https://github.com/rd-stuffs"
+           revision="vauxite" />
+
   <include name="aosp.xml"/>
   <include name="aospa.xml"/>
   <include name="obsolete.xml"/>

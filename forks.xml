@@ -47,7 +47,7 @@
   <remove-project name="AOSPA/android_frameworks_av" />
   <project path="frameworks/av" name="android_frameworks_av" remote="pnm" />
   <remove-project name="AOSPA/android_frameworks_base" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="pnm" />
+  <project path="frameworks/base" name="android_frameworks_base-new" remote="stuffs" />
   <remove-project name="AOSPA/android_frameworks_native" />
   <project path="frameworks/native" name="android_frameworks_native" remote="pnm" />
   <remove-project name="platform/frameworks/opt/telephony" />
@@ -64,12 +64,13 @@
   <project path="manifest" name="manifest" remote="stuffs" />
 
   <!-- Packages -->
+  <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="rd" />
   <remove-project name="AOSPA/android_packages_apps_Launcher3" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="pnm" />
   <remove-project name="AOSPA/android_packages_apps_Settings" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="stuffs" />
   <remove-project name="AOSPA/android_packages_apps_ParanoidSettings" />
-  <project path="packages/apps/ParanoidSettings" name="android_packages_apps_ParanoidSettings" remote="pnm" />
+  <project path="packages/apps/ParanoidSettings" name="android_packages_apps_ParanoidSettings" remote="stuffs" />
   <remove-project name="AOSPA/android_packages_apps_Paranoid_SystemUI" />
   <project path="packages/apps/ParanoidSystemUI" name="android_packages_apps_Paranoid_SystemUI" remote="pnm" />
   <remove-project name="AOSPA/android_packages_services_Telecomm" />
@@ -89,7 +90,9 @@
     <linkfile src="build.sh" dest="rom-build.sh" />
   </project>
   <remove-project name="android_vendor_aospa_prebuilt" />
-  <project path="vendor/aospa/prebuilt" name="android_vendor_aospa_prebuilt" remote="blobs-pnm" />
+  <project path="vendor/aospa/prebuilt" name="AOSPA-stuffs/android_vendor_aospa_prebuilt" remote="gitlab" revision="vauxite" clone-depth="1" />
+  <remove-project name="AOSPA/android_vendor_aospa_translations" />
+  <project path="vendor/aospa/translations" name="android_vendor_aospa_translations" remote="stuffs" />
   <remove-project name="android_vendor_google_gms" />
   <project path="vendor/google/gms" name="android_vendor_google_gms" remote="blobs-pnm" clone-depth="1" />
   <remove-project name="android_vendor_google_pixel" />
